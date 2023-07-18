@@ -39,7 +39,64 @@
 .nd1 {
     padding-left: 4%;
 }
+
 /* nav half ends */
+.section {
+    max-width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section div h3 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 33px;
+    font-weight: 900;
+}
+
+.section div p {
+    font-family: 'Rubik', sans-serif;
+    font-size: 11px;
+    margin-top: 3.75%;
+    margin-bottom: 3.5%;
+}
+
+.section div button {
+    background-color: #e72083;
+    color: white;
+    border: 0;
+    padding: 6px 13px 5px 12px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 12px;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.imgdiv {
+    position: relative;
+    margin-right: 3%;
+}
+
+.text {
+    margin-left: 3%;
+}
+
+.cam {
+    position: absolute;
+    top: 9%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media screen and (max-width:576px) {
@@ -53,5 +110,20 @@
     .nd2 {
         gap: 15px;
     }
+    .section {
+        flex-direction: column-reverse;
+    }
 
+    .imgdiv {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .cam {
+        width: 100%;
+    }
+
+    .circle {
+        width: 100%;
+    }
 }
